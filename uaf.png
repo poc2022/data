@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg [
+  <!ENTITY active '<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PCFET0NUWVBFIHN2ZyBbPCFFTlRJVFkgYWN0aXZlICJSIj5dPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIi8+" parse="xml"/>'>
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" width="1" height="1">
+  &active;
+</svg>
