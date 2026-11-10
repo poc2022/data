@@ -1,2 +1,2 @@
-overflow.heif
-control.heif
+overflow.heic
+control.heic
